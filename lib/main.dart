@@ -18,7 +18,7 @@ class MyUiApp extends StatelessWidget {
       "/main": (context) =>MainPage(),
     },
       home: Scaffold(
-        body: first_page(),
+        body: MainPage(),
       ),
     );
   }
