@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'detail_page.dart';
 import 'first_page.dart';
 import 'main_page.dart';
 
@@ -16,9 +17,10 @@ class MyUiApp extends StatelessWidget {
           initialRoute: "/",
     routes: {
       "/main": (context) =>MainPage(),
+      "/detail":(context) =>detailPage(),
     },
       home: Scaffold(
-        body: MainPage(),
+        body: first_page(),
       ),
     );
   }
